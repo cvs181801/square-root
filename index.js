@@ -12,4 +12,9 @@ function getSquareRoot(num) {
     result.appendChild(renderResult);
 }
 
-console.log(getSquareRoot(number.value));
+//console.log(getSquareRoot(number.value));
+
+goButton.addEventListener('click', function(e) {
+    e.preventDefault();
+    return getSquareRoot(number.value);
+})
