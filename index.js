@@ -6,4 +6,4 @@ function getSquareRoot(num) {
     return Math.sqrt(num);
 }
 
-console.log(2);
+console.log(getSquareRoot(2));
