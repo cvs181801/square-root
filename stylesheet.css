@@ -55,6 +55,7 @@ form {
     width: 6em;
     height: 6em;
     border: 2px solid whitesmoke;
+    justify-content: center;
     
 }
 
