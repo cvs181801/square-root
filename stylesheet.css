@@ -56,6 +56,10 @@ form {
     height: 6em;
     border: 2px solid whitesmoke;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
     
 }
 
