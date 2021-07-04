@@ -30,7 +30,7 @@ h1 {
 
 #buttonContainer {
     border: 2px solid whitesmoke;
-    width: 4.5em;
+    width: 5.5em;
     height: 2.5em;
     margin-bottom: 2em;
     justify-content: center;
@@ -45,6 +45,8 @@ h1 {
     font-family: var(--ff-main);
     color: black;
     font-size: 1.25rem;
+    width: 4.5em;
+    height: 1.5em;
 }
 
 form {
