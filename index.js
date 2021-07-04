@@ -9,7 +9,7 @@ const renderResult = document.createElement("p");
 function getSquareRoot(num) {
     renderResult.innerHTML = "";
     renderResult.innerHTML = Math.sqrt(num);
-    result.appendChild(renderResult);
+    result.append(renderResult);
 }
 
 //console.log(getSquareRoot(number.value));
