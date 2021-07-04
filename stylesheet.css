@@ -9,6 +9,7 @@ body {
     font-family: var(--ff-accent);
     margin: 0 auto;
     text-align: center;
+    display: flex;
 }
 
 h1 {
@@ -19,10 +20,15 @@ h1 {
 
 #buttonContainer {
     border: 2px solid whitesmoke;
-    width: 2em;
-    height: 2em;
+    width: 2.5em;
+    height: 2.5em;
     margin-bottom: 2em;
     justify-content: center;
+}
+
+#go-btn {
+    color: rgb(136, 136, 247);
+    font-family: var(--ff-main);
 }
 
 form {
