@@ -55,12 +55,7 @@ form {
     width: 6em;
     height: 6em;
     border: 2px solid whitesmoke;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    margin: 0 auto;
-    /*display: flex;
-    flex-direction: column;*/
+    
 }
 
 p {
@@ -69,8 +64,4 @@ p {
     border: 2px solid whitesmoke;
     font-size: 1.5rem;
     font-weight: 700;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-    margin: 0 auto;
 }
