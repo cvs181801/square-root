@@ -26,6 +26,7 @@ h1 {
     margin-bottom: 2em;
     align-content: center;
     margin: 0 auto;
+    text-align: center;
 }
 
 #go-btn {
@@ -43,6 +44,7 @@ form {
     border: 2px solid whitesmoke;
     margin-bottom: 2em;
     align-content: center;
+    text-align: center;
     margin: 0 auto;
 }
 
