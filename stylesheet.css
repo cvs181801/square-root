@@ -27,11 +27,14 @@ h1 {
     justify-content: center;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #go-btn {
-    color: rgb(136, 136, 247);
+    background-color: rgb(136, 136, 247);
     font-family: var(--ff-main);
+    color: black;
 }
 
 form {
@@ -46,6 +49,8 @@ form {
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
