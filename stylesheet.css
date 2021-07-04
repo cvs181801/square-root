@@ -19,15 +19,27 @@ h1 {
 
 #buttonContainer {
     border: 2px solid whitesmoke;
+    width: 2em;
+    height: 2em;
+    margin-bottom: 2em;
+    justify-content: center;
+}
+
+form {
     margin-bottom: 2em;
 }
 
 #resultDiv {
+    width: 6em;
+    height: 6em;
     border: 2px solid whitesmoke;
     margin-bottom: 2em;
+    justify-content: center;
 }
 
 p {
+    width: 3em;
+    height: 3em;
     border: 2px solid whitesmoke;
     font-size: 1.5rem;
 }
