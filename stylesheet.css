@@ -24,7 +24,6 @@ body {
 
 h1 {
     font-size: 2rem;
-    margin-bottom: 2em;
     margin-top: 1.5em;
 }
 
@@ -49,9 +48,7 @@ h1 {
     justify-content: center;
 }
 
-form {
-    margin-bottom: 2em;
-}
+
 
 #resultDiv {
     width: 6em;
