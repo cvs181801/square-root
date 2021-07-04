@@ -58,5 +58,6 @@ p {
     height: 3em;
     border: 2px solid whitesmoke;
     font-size: 1.5rem;
-    float: center;
+    font-weight: 700;
+    text-align: center;
 }
