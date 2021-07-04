@@ -32,7 +32,7 @@ h1 {
     border: 2px solid whitesmoke;
     width: 5.5em;
     height: 2.5em;
-   justify-content: center;
+    justify-content: center;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -72,7 +72,7 @@ p {
     font-size: 1.5rem;
     font-weight: 700;
     justify-content: center;
-    margin: .5em .5em .5em .5em;
+    margin: .5em;
     align-content: center;
     text-align: center;
 }
