@@ -24,7 +24,7 @@ h1 {
     width: 2.5em;
     height: 2.5em;
     margin-bottom: 2em;
-    align-content: center;
+    justify-content: center;
     margin: 0 auto;
     text-align: center;
 }
@@ -43,7 +43,7 @@ form {
     height: 6em;
     border: 2px solid whitesmoke;
     margin-bottom: 2em;
-    align-content: center;
+    justify-content: center;
     text-align: center;
     margin: 0 auto;
 }
