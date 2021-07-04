@@ -1,0 +1,25 @@
+:root {
+    --ff-main: 'Rajdhani', sans-serif;
+    --ff-accent: 'Cutive Mono', monospace;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: var(-ff--main);
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+
+}
+
+#buttonContainer {
+    border: 2px solid whitesmoke;
+}
+
+#resultDiv {
+    border: 2px solid whitesmoke;
+}
