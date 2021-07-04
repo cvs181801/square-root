@@ -11,6 +11,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
 
 #buttonContainer {
     border: 2px solid whitesmoke;
-    width: 2.5em;
+    width: 3.5em;
     height: 2.5em;
     margin-bottom: 2em;
     justify-content: center;
@@ -35,6 +36,7 @@ h1 {
     background-color: rgb(136, 136, 247);
     font-family: var(--ff-main);
     color: black;
+    font-size: 1.25rem;
 }
 
 form {
