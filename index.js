@@ -15,7 +15,7 @@ let renderResult = document.createElement("p");
 function getSquareRoot(numbers) {
     
     for (let i = 0; i<numbers.length; i++) {
-        result.remove("p");
+        //result.remove("p");
         let renderResult = document.createElement("p");
         renderResult.innerHTML = "";
         renderResult.innerHTML = `The Square Root of ${numbers[i]} is ${Math.sqrt(numbers[i])}`;
