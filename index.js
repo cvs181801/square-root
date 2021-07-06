@@ -33,6 +33,12 @@ function clearArray(numbers) {
 
 goButton.addEventListener('click', function(e) {
     e.preventDefault();
-    //console.log("it worked!!");
+    console.log("go button worked!!");
     return getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]);
+})
+
+clearButton.addEventListener('click', function(e) {
+    e.preventDefault();
+    console.log("clear button worked!!");
+    return clearArray([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]);
 })
