@@ -26,11 +26,14 @@ function getSquareRoot(numbers) {
 }
 
 function clearArray(numbers) {
-    console.log(numbers);
-    numbers.splice(0);
-    clearButton.classList.toggle("hidden");
-    goButton.classList.toggle("hidden");
-    return numbers;
+    // console.log(numbers);
+    // numbers.splice(0);
+    // clearButton.classList.toggle("hidden");
+    // goButton.classList.toggle("hidden");
+    // return numbers;
+    for (let i=0; i<numbers; i++) {
+        renderResult.innerHTML = "";
+    }
 }
 
 //console.log(getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]));
