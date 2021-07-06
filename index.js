@@ -11,8 +11,8 @@ let renderResult = document.createElement("p");
 
 //get the square root of each the number the user enters, then sum up the total
 
-function getSquareRoot(numbers, number) {
-    for (let i = 0; i<numbers.length; i++) {
+function getSquareRoot(number, numbers) {
+    for (let number = 0; i<numbers.length; number++) {
         //renderResult.remove("p");
         let renderResult = document.createElement("p");
         renderResult.innerHTML = "";
