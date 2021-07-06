@@ -32,7 +32,7 @@ function clearArray(numbers) {
      goButton.classList.toggle("hidden");
     // return numbers;
     for (let i = 0; i < numbers.length; i++) {
-        result.removeChild("renderResult");
+        p.innerHTML = "";
 
         //numbers.splice(0);
     }
