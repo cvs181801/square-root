@@ -35,7 +35,7 @@ function clearArray(numbers) {
         //paragraphs = document.getElementsByTagName("p");
         //paragraphs.innerHTML = "";
         numbers.splice(0, 1);
-        
+        return numbers;
     }
 }
 // const array1 = [4, 4, 4, 4];
