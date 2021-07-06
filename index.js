@@ -18,7 +18,7 @@ function getSquareRoot(numbers) {
     goButton.classList.toggle("hidden");
     for (let i = 0; i<numbers.length; i++) {
         let renderResult = document.createElement("p");
-        //renderResult.innerHTML = "";
+        
         renderResult.innerHTML = `The Square Root of ${numbers[i]} is ${Math.sqrt(numbers[i])}`;
         result.append(renderResult);
         //console.log(Math.sqrt(numbers[i]));
@@ -35,9 +35,9 @@ function clearArray(numbers) {
         //paragraphs = document.getElementsByTagName("p");
         //paragraphs.innerHTML = "";
         numbers.splice(0, 1);
-        
+        renderResult.innerHTML = "";
     }
-    return numbers;
+    console.log(numbers);
 }
 // const array1 = [4, 4, 4, 4];
 // console.log(array1);
