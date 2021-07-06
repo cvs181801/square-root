@@ -55,8 +55,7 @@ input {
     font-family: var(--ff-main);
     color: black;
     font-size: 1.25rem;
-    /*width: 4em;
-    height: 2em;*/
+    width: 100%;
     justify-content: center;
     font-weight: 700;
 }
