@@ -63,7 +63,6 @@ h1 {
 }
 
 p {
-   
     border: 2px solid whitesmoke;
     font-size: 1.5rem;
     font-weight: 700;
@@ -71,4 +70,8 @@ p {
     margin: .5em;
     align-content: center;
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }
