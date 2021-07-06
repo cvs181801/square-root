@@ -14,6 +14,7 @@ let renderResult = document.createElement("p");
 //get the square root of each the number the user enters.
 
 function getSquareRoot(numbers) {
+    result.innerHTML = "";
     clearButton.classList.toggle("hidden");
     goButton.classList.toggle("hidden");
     for (let i = 0; i<numbers.length; i++) {
