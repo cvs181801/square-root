@@ -40,9 +40,7 @@ input {
 }
 
 #buttonContainer {
-    /*border: 2px solid whitesmoke;*/
-    width: 5.5em;
-    height: 2.5em;
+    
     justify-content: center;
     margin: 0 auto;
     text-align: center;
