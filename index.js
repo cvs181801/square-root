@@ -31,11 +31,11 @@ function clearArray(numbers) {
      clearButton.classList.toggle("hidden");
      goButton.classList.toggle("hidden");
     // return numbers;
-    for (let i = 0; i < numbers.length; i++) {
-        paragraphs = document.getElementsByTagName("p");
-        paragraphs.innerHTML = "";
-
-        //numbers.splice(0);
+    for (let i = numbers.length - 1; i > 0; i--) {
+        //paragraphs = document.getElementsByTagName("p");
+        //paragraphs.innerHTML = "";
+        numbers.splice(0, 1);
+        
     }
 }
 // const array1 = [4, 4, 4, 4];
