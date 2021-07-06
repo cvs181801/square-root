@@ -26,6 +26,7 @@ function getSquareRoot(numbers) {
 }
 
 function clearArray(numbers) {
+    renderResult.innerHTML = "";
     numbers.splice(0);
     clearButton.classList.toggle("hidden");
     goButton.classList.toggle("hidden");
