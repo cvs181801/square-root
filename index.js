@@ -7,14 +7,14 @@ const number5 = document.getElementById("numberBox5");
 
 const goButton = document.getElementById("go-btn");
 const result = document.getElementById("resultDiv");
-let renderResult = document.createElement("p");
+//let renderResult = document.createElement("p");
 
 //get the square root of each the number the user enters, then sum up the total
 
 function getSquareRoot(numbers) {
     for (let i = 0; i<numbers.length; i++) {
-        renderResult.remove("p");
-        renderResult = document.createElement("p");
+        //renderResult.remove("p");
+        let renderResult = document.createElement("p");
         renderResult.innerHTML = `The Square Root of ${[i]} is ${Math.sqrt([i])}`;
         result.append(renderResult);
         console.log(Math.sqrt([i]));
