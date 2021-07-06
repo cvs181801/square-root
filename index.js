@@ -14,6 +14,7 @@ let renderResult = document.createElement("p");
 //get the square root of each the number the user enters, then sum up the total
 
 function getSquareRoot(numbers) {
+    clearButton.classList.toggle("hidden");
     goButton.classList.toggle("hidden");
     for (let i = 0; i<numbers.length; i++) {
         let renderResult = document.createElement("p");
@@ -27,6 +28,7 @@ function getSquareRoot(numbers) {
 function clearArray(numbers) {
     numbers.splice(0);
     clearButton.classList.toggle("hidden");
+    goButton.classList.toggle("hidden");
 }
 
 //console.log(getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]));
