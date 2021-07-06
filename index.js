@@ -29,5 +29,6 @@ console.log(getSquareRoot([parseInt(number1.value), parseInt(number2.value), par
 goButton.addEventListener('click', function(e) {
     e.preventDefault();
     //console.log("it worked!!");
+    renderResult.innerHTML = "";
     return getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]);
 })
