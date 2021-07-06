@@ -7,16 +7,17 @@ const number5 = document.getElementById("numberBox5");
 
 const goButton = document.getElementById("go-btn");
 const result = document.getElementById("resultDiv");
-const renderResult = document.createElement("p");
+let renderResult = document.createElement("p");
 
 //get the square root of each the number the user enters, then sum up the total
 
 function getSquareRoot(numbers) {
     for (let i = 0; i<numbers.length; i++) {
-        renderResult.innerHTML = "";
+        renderResult.remove("p");
+        renderResult = document.createElement("p");
         renderResult.innerHTML = Math.sqrt([i]);
         result.append(renderResult);
-        //console.log(Math.sqrt([i]));
+        console.log(Math.sqrt([i]));
     }
    
 }
