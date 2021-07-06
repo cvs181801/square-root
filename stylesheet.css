@@ -30,8 +30,9 @@ h1 {
 
 input {
     border-radius: 7px;
-    border: aqua;
+    border: 2px solid aqua;
     background-color: black;
+    color: whitesmoke;
     font-family: inherit;
     margin: 1em 1em 1em 1em;
 }
