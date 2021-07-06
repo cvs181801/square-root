@@ -11,12 +11,12 @@ let renderResult = document.createElement("p");
 
 //get the square root of each the number the user enters, then sum up the total
 
-function getSquareRoot(number, numbers) {
-    for (let number = 0; number<numbers.length; number++) {
+function getSquareRoot(numbers) {
+    for (let i = 0; i<numbers.length; i++) {
         //renderResult.remove("p");
         let renderResult = document.createElement("p");
         renderResult.innerHTML = "";
-        renderResult.innerHTML = `The Square Root of ${number} is ${Math.sqrt(number)}`;
+        renderResult.innerHTML = `The Square Root of ${[i]} is ${Math.sqrt[i]}`;
         result.append(renderResult);
         console.log(Math.sqrt([i]));
     }
