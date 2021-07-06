@@ -7,7 +7,7 @@ const number4 = document.getElementById("numberBox4");
 const number5 = document.getElementById("numberBox5");
 
 const goButton = document.getElementById("go-btn");
-const clearButton = document.getElementById("clearBtn");
+const clearButton = document.getElementById("clear-btn");
 const result = document.getElementById("resultDiv");
 let renderResult = document.createElement("p");
 
