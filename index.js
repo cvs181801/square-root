@@ -32,7 +32,8 @@ function clearArray(numbers) {
      goButton.classList.toggle("hidden");
     // return numbers;
     for (let i = 0; i < numbers.length; i++) {
-        p.innerHTML = "";
+        paragraphs = document.getElementsByTagName("p");
+        paragraphs.innerHTML = "";
 
         //numbers.splice(0);
     }
