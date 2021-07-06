@@ -36,8 +36,7 @@ function clearArray(numbers) {
         //paragraphs.innerHTML = "";
         //numbers.splice(0, 1);
         result.innerHTML = "";
-    }
-   
+    } 
 }
 
 //make the 'go' button work
