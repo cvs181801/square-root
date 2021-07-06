@@ -33,11 +33,12 @@ function clearArray(numbers) {
     // return numbers;
     for (let i = 0; i < numbers.length; i++) {
         //renderResult.innerHTML = "";
-        console.log("yo");
+        numbers.splice(0);
     }
 }
-
-console.log(clearArray([4, 4, 4, 4]));
+const array1 = [4, 4, 4, 4];
+console.log(array1);
+console.log(clearArray(array1));
 
 //console.log(getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]));
 
