@@ -33,7 +33,7 @@ function clearArray(numbers) {
     // return numbers;
     for (let i=0; i<numbers; i++) {
         //renderResult.innerHTML = "";
-        console.log(`cleared ${[i]}`);
+        console.log("yo");
     }
 }
 
