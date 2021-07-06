@@ -3,9 +3,9 @@
     --ff-accent: 'Cutive Mono', monospace;
 }
 
-* {
+/** {
     box-sizing: border-box;
-}
+}*/
 
 html {
     height: 100%;
