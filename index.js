@@ -32,8 +32,9 @@ function clearArray(numbers) {
      goButton.classList.toggle("hidden");
     // return numbers;
     for (let i = 0; i < numbers.length; i++) {
-        renderResult.innerHTML = "";
-        numbers.splice(0);
+        result.removeChild("p");
+
+        //numbers.splice(0);
     }
 }
 // const array1 = [4, 4, 4, 4];
