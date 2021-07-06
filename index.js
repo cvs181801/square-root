@@ -13,8 +13,9 @@ let renderResult = document.createElement("p");
 //get the square root of each the number the user enters, then sum up the total
 
 function getSquareRoot(numbers) {
-    result.remove("p");
+    
     for (let i = 0; i<numbers.length; i++) {
+        result.remove("p");
         let renderResult = document.createElement("p");
         renderResult.innerHTML = "";
         renderResult.innerHTML = `The Square Root of ${numbers[i]} is ${Math.sqrt(numbers[i])}`;
