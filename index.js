@@ -14,18 +14,18 @@ let renderResult = document.createElement("p");
 function getSquareRoot(numbers) {
     for (let i = 0; i<numbers.length; i++) {
         //renderResult.remove("p");
-        let renderResult = document.createElement("p");
-        renderResult.innerHTML = "";
-        renderResult.innerHTML = `The Square Root of ${[i]} is ${Math.sqrt[i]}`;
-        result.append(renderResult);
+        // let renderResult = document.createElement("p");
+        // renderResult.innerHTML = "";
+        // renderResult.innerHTML = `The Square Root of ${[i]} is ${Math.sqrt[i]}`;
+        // result.append(renderResult);
         console.log(Math.sqrt([i]));
     }
 }
 
-//console.log(getSquareRoot([9, 5, 7, 4]));
+console.log(getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]);
 
-goButton.addEventListener('click', function(e) {
-    e.preventDefault();
-    console.log("it worked!!");
-    return getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]);
-})
+// goButton.addEventListener('click', function(e) {
+//     e.preventDefault();
+//     console.log("it worked!!");
+//     return getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]);
+// })
