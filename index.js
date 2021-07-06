@@ -11,7 +11,7 @@ const clearButton = document.getElementById("clear-btn");
 const result = document.getElementById("resultDiv");
 let renderResult = document.createElement("p");
 
-//get the square root of each the number the user enters, then sum up the total
+//get the square root of each the number the user enters.
 
 function getSquareRoot(numbers) {
     clearButton.classList.toggle("hidden");
@@ -21,37 +21,32 @@ function getSquareRoot(numbers) {
         
         renderResult.innerHTML = `The Square Root of ${numbers[i]} is ${Math.sqrt(numbers[i])}`;
         result.append(renderResult);
-        //console.log(Math.sqrt(numbers[i]));
     }
 }
 
+//create a way to clear the previous values.
+
 function clearArray(numbers) {
-    // console.log(numbers);
-    // numbers.splice(0);
      clearButton.classList.toggle("hidden");
      goButton.classList.toggle("hidden");
-    // return numbers;
+   
     for (let i = numbers.length - 1; i > 0; i--) {
         //paragraphs = document.getElementsByTagName("p");
         //paragraphs.innerHTML = "";
-        numbers.splice(0, 1);
-        renderResult.innerHTML = "";
+        //numbers.splice(0, 1);
+        result.innerHTML = "";
     }
-    console.log(numbers);
+   
 }
-// const array1 = [4, 4, 4, 4];
-// console.log(array1);
-// console.log(clearArray(array1));
-//console.log(getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]));
 
+//make the 'go' button work
 goButton.addEventListener('click', function(e) {
     e.preventDefault();
-    //console.log("go button worked!!");
     return getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]);
 })
 
+//make the clear button work
 clearButton.addEventListener('click', function(e) {
     e.preventDefault();
-    //console.log("clear button worked!!");
     return clearArray([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]);
 })
