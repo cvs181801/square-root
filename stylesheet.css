@@ -39,7 +39,8 @@ h1 {
     flex-direction: column;
 }
 
-#go-btn {
+#go-btn,
+#clear-btn {
     background-color: rgb(136, 136, 247);
     font-family: var(--ff-main);
     color: black;
