@@ -14,11 +14,11 @@ let renderResult = document.createElement("p");
 function getSquareRoot(numbers) {
     for (let i = 0; i<numbers.length; i++) {
         //renderResult.remove("p");
-        // let renderResult = document.createElement("p");
-        // renderResult.innerHTML = "";
-        // renderResult.innerHTML = `The Square Root of ${[i]} is ${Math.sqrt[i]}`;
-        // result.append(renderResult);
-        console.log(Math.sqrt(numbers[i]));
+        let renderResult = document.createElement("p");
+        renderResult.innerHTML = "";
+        renderResult.innerHTML = `The Square Root of ${numbers[i]} is ${Math.sqrt(numbers[i])}`;
+        result.append(renderResult);
+        //console.log(Math.sqrt(numbers[i]));
     }
 }
 
