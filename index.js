@@ -1,4 +1,5 @@
 //grab elements from the DOM
+
 const number1 = document.getElementById("numberBox1");
 const number2 = document.getElementById("numberBox2");
 const number3 = document.getElementById("numberBox3");
@@ -24,8 +25,8 @@ function getSquareRoot(numbers) {
 
 console.log(getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]));
 
-// goButton.addEventListener('click', function(e) {
-//     e.preventDefault();
-//     console.log("it worked!!");
-//     return getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]);
-// })
+goButton.addEventListener('click', function(e) {
+    e.preventDefault();
+    //console.log("it worked!!");
+    return getSquareRoot([parseInt(number1.value), parseInt(number2.value), parseInt(number3.value), parseInt(number4.value), parseInt(number5.value)]);
+})
