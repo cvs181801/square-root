@@ -32,7 +32,8 @@ function clearArray(numbers) {
     // goButton.classList.toggle("hidden");
     // return numbers;
     for (let i=0; i<numbers; i++) {
-        renderResult.innerHTML = "";
+        //renderResult.innerHTML = "";
+        console.log(`cleared ${[i]}`);
     }
 }
 
